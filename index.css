@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.placar {
+    background-color: #CF48FF;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3px;
+    margin-bottom: 30px;
+}
+
+.nome-jogador {
+    color: #fff;
+    font-size: 1em;
+}
+
+.contador-placar {
+    color: #CF48FF;
+    background-color: #F5D9FF;
+    font-size: 2em;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 2rem;
+}
+
+.versus-pequeno {
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 700;
+}
+
+.secao-batalha {
+    background-color: #CF48FF;    
+    width: 520px;
+    height: 180px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+
+.versus-campo-batalha{
+    color: #fff;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.campo-batalha {
+    background-color: #F5D9FF;
+    width: 170px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.jokempo {
+    display: flex;
+    
+}
+
+.botoes-jogador {
+    color: #fff;
+    background-color: #CF48FF;    
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.botoes-jogador1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.botoes-jogador2 {  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.principal-botoes-jogador2 {
+    width: 100px;
+    height: 180px;
+    display: flex;
+}
+
+.botao-papel {
+    background-image: url('papel.png');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center left 4px;
+}
+
+.botao-pedra {
+    background-image: url('pedra.png');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center left 4px;
+}
+
+.botao-tesoura {
+    background-image: url('tesoura.png');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center left 4px;
+}
+
+.resultado {
+    font-weight: 700;
+    background-color: #CF48FF;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    width: 200px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resetar,.botao-bot {
+    font-size: 1em;
+    font-weight: 700;
+    background-color: #CF48FF;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 0.3rem 1.6rem;
+    margin-top: 2em;
+}
+
+.botoes:hover {
+    background-color: #FFf;
+    color: #CF48FF;
+    border: 1px solid #CF48FF;
+    cursor: pointer;
+}
+
+.campo-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
